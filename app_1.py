@@ -7,7 +7,7 @@ class Triangle:
     def classify_triangle(self):
         """The method checks for the existence of a triangle and determines
         its type (equilateral, isosceles, or scalene),
-        and then returns the appropriate description"""
+        and then returns the appropriate description."""
         if (self.side_a >= self.side_b + self.side_c
                 or self.side_b >= self.side_a + self.side_c
                 or self.side_c >= self.side_a + self.side_b):
